@@ -2,6 +2,8 @@
 This code is done using MYSQL, the database url, user name, and password are given
 Database creation, population, and querying are in another file call CreateDatabase.java
 The MYSQL jar file needed to run this file is attached as a file in the Authenticate folder 
+
+This code reads in the user data from test.txt and stores in a database 
 */
 
 
