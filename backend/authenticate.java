@@ -1,3 +1,7 @@
+/*
+This code is done using MYSQL, the database url, user name, and password are given
+*/
+
 import java.sql.*;
 import java.util.Scanner;
 
