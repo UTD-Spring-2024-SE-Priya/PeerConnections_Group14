@@ -1,5 +1,6 @@
 /*
 This code is done using MYSQL, the database url, user name, and password are given
+The MYSQL jar file needed to run this file is attached as a file in the backend folder 
 */
 
 import java.sql.*;
