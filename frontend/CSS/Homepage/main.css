@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-size: 14px;
+}
+.v127_71 {
+  width: 100%;
+  height: 832px;
+  background: none;
+  padding: 10px 10px;
+  margin: 10px;
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.v127_72 {
+  width: 520px;
+  color: url("../images/v127_72.png");
+  position: absolute;
+  top: 244px;
+  left: 412px;
+  font-family: Aguafina Script;
+  font-weight: Regular;
+  opacity: 1;
+  text-align: left;
+}
+.v127_73 {
+  width: 130px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 553px;
+  left: 551px;
+  font-family: Inter;
+  font-weight: Regular;
+  font-size: 50px;
+  opacity: 1;
+  text-align: left;
+}
+.v127_74 {
+  width: 363px;
+  color: rgba(10,9,9,1);
+  position: absolute;
+  top: 659px;
+  left: 434px;
+  font-family: Inter;
+  font-weight: Regular;
+  font-size: 50px;
+  opacity: 1;
+  text-align: left;
+}
