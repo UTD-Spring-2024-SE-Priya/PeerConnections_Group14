@@ -1,1 +1,12 @@
+This folder contains a HTML file and a JavaScript file. 
 
+*The JavaScript file is for creating a server to run the code on. 
+    -This file creates a local server that will connect to a JDoodle compiler API and will run the embedded and escaped java code that is passed into it
+    -To run the file:
+      -Open Comand Prompt and locate the folder you places this file in 
+      -Type "node server.js" to run the file
+      -If it is running, it will let you know that it is listening 
+
+
+*The HTML file is the login page. 
+    -This page take in a Id and password and passes it into the server to check it using java backend code and redirects the user to homepage if the credentials are correct 
