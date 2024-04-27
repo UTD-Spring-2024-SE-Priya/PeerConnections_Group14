@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peer Connections - Sign In</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Peer Connections</h1>
+        <h2>Sign In</h2>
+        <form>
+            <div class="form-group">
+                <label for="utid">UT ID:</label>
+                <input type="text" id="utid" name="utid" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <button type="submit">Sign In</button>
+        </form>
+    </div>
+    <code id="output"></code>
+    <script>
+       
+        document.querySelector("form").addEventListener("submit", function(e)
+        {
+            e.preventDefault();   // Prevent the default form submission
+            var uid = document.getElementById("utid");
+            var pass = document.getElementById("password");
+            console.log(uid.value);         //loggin info into consol
+            console.log(pass.value);
+    
+            
+            // Send a POST request to server
+        fetch('http://localhost:3000/api', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({
+                uid: uid.value,
+                pass: pass.value,
+            }),
+        })
+        .then(response => response.json())
+        .then(data => {
+            window.location.href = "homepage.html"; // Redirect to the homepage
+        })
+        .catch(error => {
+        // Log any errors
+            console.error('Error:', error);
+            });
+    
+        });
+    </script>
+</body>
+</html>
