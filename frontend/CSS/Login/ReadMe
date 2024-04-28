@@ -1,6 +1,6 @@
 This folder contains a HTML file and a JavaScript file. 
 
-*The JavaScript file is for creating a server to run the code on. 
+*The JavaScript file is for creating a server to run the code on. *TO LOGIN AND RUN THE APP, THE SERVER MUST BE RUNNING*
     -This file creates a local server that will connect to a JDoodle compiler API and will run the embedded and escaped java code that is passed into it
     -To run the file:
       -Open Comand Prompt and locate the folder you places this file in 
